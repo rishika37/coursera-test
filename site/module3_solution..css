@@ -1,0 +1,153 @@
+body {
+		background-color: maroon;
+		font-family: sans-serif;
+		font-size: 16px;
+		color: #fff;
+	}
+	/**header**/
+	#header-nav{
+		background-color: #f6b319;
+		border-radius: 0px;
+		border: 0;
+	}
+	
+	
+	.navbar-brand{
+		padding-top: 10px;
+		}
+
+     .navbar-brand h1{
+		font-size: 35px;
+		margin-bottom: 5px;
+		text-transform: uppercase;: 
+		font-color:blue;
+		font-weight: bolder;
+		text-shadow: 1px 1px 1px #222;
+		margin-top: 0;
+		margin-bottom: 0;
+		line-height: .75
+		}
+		.navbar-brand a:hover, ..navbar-brand a:focus {
+			text-decoration: none;
+		}
+		.navbar-brand p {
+			color: #000;
+			text-transform: uppercase;
+			font-size: .7em;
+			margin-top: 5px;
+
+		}
+		.navbar-brand p span {
+			vertical-align: middle;
+		}
+
+#nav-list{
+			margin-top: 10px;
+		}
+		#nav-list a{
+			color: red;
+			text-align: center;
+		}
+		#nav-list a:hover{
+           background: #E7E7E7;
+
+		}
+		#nav-list a span{
+			font-size: 1.8em;
+		}
+		.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+			border: 1px solid #61122f;
+		}
+		.navbar-header button.navbar-toggle{
+     	clear: both;
+     	margin-top: -20px;
+     }
+
+.border-bottom border-dark {
+	font-size: 50px;
+	text-align: center;
+	background-color:  gray;
+
+}
+.text-center{
+
+	font-size: 50px;
+	text-align: center;
+	font-color:black;
+     width: 100%;
+	
+
+}
+.container {
+	border: 2px solid black;
+	background-position: center;
+	background-color: gray;
+	text-align: center;
+	margin-bottom: 20px;
+
+
+}
+h5{
+	font-size: 30px;
+     font-color:black;
+}
+#nav-list{
+			margin-top: 10px;
+		}
+		#nav-list a{
+			color: red;
+			text-align: center;
+		}
+		#nav-list a:hover{
+           background: #E7E7E7;
+
+		}
+		#nav-list a span{
+			font-size: 1.8em;
+		}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+			border: 1px solid #61122f;
+		}
+
+
+         
+
+		
+
+}
+
+@media (min-width: 1200px;){
+		
+	
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+
+
+
+	}
+	@media (min-width: 768px) and (max-width: 991px){
+		  
+         
+	@media (max-width: 767px) {
+		
+         
+		.navbar-brand {
+			padding-top: 10px;
+			height: 80px;
+
+		}
+		.navbar-brand p{
+			padding-top: 5px;
+			font-size: 16px;
+}
+.navbar-brand p img{
+	height: 20px;
+}
+#collapsable-nav a{
+	font-size: 1em;
+
+}
+
+
+	}
