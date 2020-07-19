@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<title>Food,LLC</title>
+
+<link rel="stylesheet" href="C:\Program Files (x86)\Sublime Text 3\website coursera\css\m3.css">
+<style type="text/css">
+	body {
+		background-color: maroon;
+		font-family: oxygen;
+		font-size: 16px;
+		color: #fff;
+	}
+	/**header**/
+	#header-nav{
+		background-color: #f6b319;
+		border-radius: 0px;
+		border: 0;
+	}
+	
+	
+	.navbar-brand{
+		padding-top: 10px;
+		}
+
+     .navbar-brand h1{
+		font-size: 35px;
+		margin-bottom: 5px;
+		text-transform: uppercase;: 
+		font-color:blue;
+		font-weight: bolder;
+		text-shadow: 1px 1px 1px #222;
+		margin-top: 0;
+		margin-bottom: 0;
+		line-height: .75
+		}
+		.navbar-brand a:hover, ..navbar-brand a:focus {
+			text-decoration: none;
+		}
+		.navbar-brand p {
+			color: #000;
+			text-transform: uppercase;
+			font-size: .7em;
+			margin-top: 5px;
+
+		}
+		.navbar-brand p span {
+			vertical-align: middle;
+		}
+
+#nav-list{
+			margin-top: 10px;
+		}
+		#nav-list a{
+			color: red;
+			text-align: center;
+		}
+		#nav-list a:hover{
+           background: #E7E7E7;
+
+		}
+		#nav-list a span{
+			font-size: 1.8em;
+		}
+		.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+			border: 1px solid #61122f;
+		}
+		.navbar-header button.navbar-toggle{
+     	clear: both;
+     	margin-top: -20px;
+     }
+
+/*end header*/
+
+          /*footer*/
+         .panel-footer{
+         margin-top: 20px;
+         padding-bottom:10px; 
+         padding-top:15px;
+         background-color: gray;
+         border-top: 0;
+         border-style: ridge;
+         text-align: center;
+
+		}
+		.panel-footer div.row {
+	margin-bottom: 30px;
+	
+}
+		}
+		#hours, #address{
+			line-height: 2;
+		}
+		#hours > span, #address > span {
+			font-size: 1.3em;
+			font-family: serif;
+		}
+		#address p {
+			color: green;
+			font-size: 1.3em;
+			line-height: 1.8;
+		}
+		#testimonials {
+			font-style: italic;
+		}
+ 
+#testimonials p:nth-child(2) {
+	margin-top: 20px;
+}
+/*home page*/
+		 .jumbotron{
+		background: url('Volcano sunset in Indonesia.jpg');
+		box-shadow:  #3F0C1F
+		height: 500px;
+		width: 100%;
+		border: 2px solid  #3F0C1F;
+	}
+	#menu-tile, #specials-tile, #map-tile{
+		height: 200px;
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 15px;
+		border: 1px solid blue;
+	}	
+
+	#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+		box-shadow: 0 1px 5px 1px #cccccc
+	}
+	#menu-tile{
+		background: url('dog aesthetic.jpg') no-repeat;
+		background-position: center;
+		;
+	}
+	#specials-tile{
+		background: url('Austrian Window - 15310 Design Ideas & Pictures.jpg') no-repeat;
+		background-position: center;
+	}
+	
+	#menu-tile span, #specials-tile span, #map-tile span{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		text-align: center;
+		font-size: 1.0cm;
+		text-transform: uppercase;
+		background-color: #000;
+		color: #fff;
+		opacity: .8;
+
+	}
+
+/*menu category page*/
+.category-tile{
+	position: relative;
+	border: 2px solid green;
+	overflow: hidden;
+	width: 200px
+	height:200px;
+	margin: 0 auto 15px;
+}
+.category-tile span{
+	position: relative;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+.category-tile:hover{
+	box-shadow: 0 1px 3px 1px #cccccc
+}
+#menu-categories-title + div{
+	margin-bottom: 50px
+}   
+.menu-item-tile{
+	margin-bottom: 20px;
+}
+.menu-item-tile hr{
+	width: 80%;
+}
+.menu-item-tile .menu-item-price{
+	font-size:1.2em ;
+	font-family: sans-serif;
+	text-align: center;
+	margin-top:5px ;
+	margin-right:-5px ;
+}
+.menu-item-tile .menu-item-price span {
+	font-size: 1em;
+	text-align: center;
+}
+.menu-item-photo {
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin-right:auto; ;
+	margin-left: auto; 
+	margin-bottom: 15px ;
+	text-align: center;
+	max-width: 200px;
+}
+.menu-item-photo div {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	background-color: green;
+	text-align: center;
+}
+.menu-item-description {
+	padding-right: 30px;
+	text-align: center;
+}
+ 
+ h3..menu-item-tile{
+	margin:  0 0 10px;
+}
+.menu-item-details{
+		font-style: 1em;
+		font-style: italic;
+		font-family:sans-serif;
+
+
+}
+
+@media (min-width: 1200px;){
+		
+	.container .jumbotron{
+		background: url('Volcano sunset in Indonesia.jpg');
+		height: 500px;
+		border: 2px solid  blue;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+.container.jumbotron{
+		background: url('Volcano sunset in Indonesia.jpg');
+		height: 550px;
+
+
+
+	}
+	@media (min-width: 768px) and (max-width: 991px){
+		#logo-img{
+        background: url('Volcano sunset in Indonesia.jpg') no-repeat;
+width: 100px;
+height: 100px;
+box-shadow: 5px solid #cccccc;
+margin:0px 0px 0px 0px;
+}
+         
+         .container .jumbotron{
+		background: url('Volcano sunset in Indonesia.jpg');
+		height: 500px;
+		
+
+	}
+	@media (max-width: 767px) {
+		#logo-img{
+background: url('Volcano sunset in Indonesia.jpg') no-repeat;
+width: 100px;
+height: 100px;
+box-shadow: 5px solid #cccccc;
+margin:0px 0px 0px 0px;
+}
+         
+		.navbar-brand {
+			padding-top: 10px;
+			height: 80px;
+
+		}
+		.navbar-brand p{
+			padding-top: 5px;
+			font-size: 16px;
+}
+.navbar-brand p img{
+	height: 20px;
+}
+#collapsable-nav a{
+	font-size: 1em;
+
+}
+.panel-footer section {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.panel-footer section p {
+	margin-bottom: 0;
+	
+}
+.panel-footer section hr {
+	width:50%;
+}
+
+#menu-tile , #specials-tile{
+	width: 300px;
+	margin: 0 auto 10px;
+
+
+}
+.menu-item-tile .menu-item-price {
+	text-align: center;
+}
+.menu-item-description{
+	text-align: center;
+}
+
+
+	}
+	@media (max-width: 479px){
+		.navbar-brand p{
+			padding-top: 5px;
+			font-size: 6vw;
+
+		}
+		#menu-tile , #specials-tile{
+	width: 250px;
+	margin: 0 auto 10px;
+}
+.col-xxs-12{
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+	width: 100%;
+	}
+}
+	</head>
+</style>
+
+<body>
+<header>
+	<nav id="header-nav" class=" navbar navbar-default">
+<a class="navbar-brand" href="#" id="ma"><h1>dominos</h1></a>
+
+<div class="container">
+	<div class="navbar-header">
+<a href="index.html" class="pull-left visible-md visible-lg hidden-xs">
+<div id="logo-img" alt="Logo image"></div><img width="100" height="100" src="Volcano sunset in Indonesia.jpg">
+</a>
+<div class="navbar-brand">
+<a href="index.html"><p class="visible-md visible-lg visible-xs visible-sm ">Fall in love with process and the results</p></a>
+</div>
+<button id ="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div id="collapsable-nav" class="collapse navbar-collapse">
+<ul id="nav-list" class="nav navbar-nav navbar-right">
+	<li class="visible-xs">
+		<a href="boot.html">
+			<span class="glyphicon glyphicon-home"></span><br class="hidden-xs">home
+		</a>
+	</li>
+<li class="active">
+<a href="menu-categories.html">
+
+<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs-block"> menu</a>
+</li>
+<li>
+<a href="#">
+<span class="glyphicon glyphicon-star"></span><br class="hidden-xs">Specials</a>
+</li>
+<li>
+<a href="#">
+<span class="glyphicon glyphicon-pencil"></span><br class="hidden-xs"> FAQs</a>
+</li>
+<li id="email" class="hidden-xs">
+<a href="index.html">
+<span>dominos.in</span></a><div>Contact Us!</div>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+<div id="call-btn" class="visible-xs"><a href="tel:555655556"><span class="glyphicon glyphicon-earphone"></span>787558545
+	</a>
+	</div><div id="xs-deliver" class="container">*we deliver best pizzas</div>
+
+	<div id="main-content" class="container">
+		<h2 id="menu-categories-title" class="text-center">lunch</h2>
+		<div class="text-center">sorry for lunch
+			
+		</div>
+		<section class="row">
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+				           <div>d01</div>
+				           <img class="img-responsive"   width="200" height="200" src="Kamelie.jpg" alt="item"></div>
+				           <div class="menu-item-price">3424<span>fdf54</span><span>fgf</span></div>
+</div>
+<div class="menu-item-description col-sm-7"><h3 class="menu-item-title">pizzaass</h3>
+	<p class="menu-item-details"> dfhedjfhehfdbv fdgf sdjgfd hgdf hrwr htsyrte dywdh dgf sdgsjfh dsfgdjf fdsjggdhfjgd sfgdhgfd dhfudtfre dheth fjeuyfe fguyfg skjwi 763dfhedjfhehfdbv fdgf sdjgfd hgdf hrwr htsyrte dywdh dgf sdgsjfh dsfgdjf fdsjggdhfjgd sfgdhgfd dhfudtfre dheth fjeuyfe fguyfg skjwi 763  677dfgwjhbr kdsakjeru welllyu eyruhf eheqwiuyjfryti5  677dfgwjhbr kdsakjeru welllyu eyruhf eheqwiuyjfryti5yb eerujhdf etttthf uyerbe ndbgddbgkh j</p>
+</div>
+</div>
+<hr class="visible-xs"></div>
+
+<div class="menu-item-tile col-md-6">
+<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+				           <div>d02</div>
+				           <img class="img-responsive"   width="200" height="200" src="Kamelie.jpg" alt="item"></div>
+				           <div class="menu-item-price">3424<span>fdf54</span><span>fgf</span></div>
+</div>
+<div class="menu-item-description col-sm-7"><h3 class="menu-item-title">pizzaass</h3><p class="menu-item-details"> dfhedjfhehfdbv fdgf sdjgfd hgdf hrwr htsyrte dywdh dgf sdgsjfh dsfgdjf fdsjggdhfjgd sfgdhgfd dhfudtfre dheth fjeuyfe fguyfg skjwi 763  677dfgwjhbr kdsakjeru welllyu eyruhf eheqwiuyjfryti5yb eerujhdf etttthf uyerbe ndbgddbgkh j</p>
+</div>
+</div>
+<hr class="visible-xs"></div>
+<div class="clearfix visible-md-block visible-lg-block"></div>
+
+<div class="menu-item-tile col-md-6">
+<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+				           <div>d03</div>
+				           <img class="img-responsive"   width="200" height="200" src="Kamelie.jpg" alt="item"></div>
+				           <div class="menu-item-price">3424<span>fdf54</span><span>fgf</span></div>
+</div>
+<div class="menu-item-description col-sm-7"><h3 class="menu-item-title">pizzaass</h3><p class="menu-item-details"> dfhedjfhehfdbv fdgf sdjgfd hgdf hrwr htsyrte dywdh dgf sdgsjfh dsfgdjf fdsjggdhfjgd sfgdhgfd dhfudtfre dheth fjeuyfe fguyfg skjwi 763  677dfgwjhbr kdsakjeru welllyu eyruhf eheqwiuyjfryti5yb eerujhdf etttthf uyerbe ndbgddbgkh j</p>
+</div>
+</div>
+<hr class="visible-xs"></div>
+
+<div class="menu-item-tile col-md-6">
+<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+				           <div>d04</div>
+				           <img class="img-responsive"   width="200" height="200" src="Kamelie.jpg" alt="item"></div>
+				           <div class="menu-item-price">3424<span>fdf54</span><span>fgf</span></div>
+</div>
+<div class="menu-item-description col-sm-7"><h3 class="menu-item-title">pizzaass</h3><p class="menu-item-details"> dfhedjfhehfdbv fdgf sdjgfd hgdf hrwr htsyrte dywdh dgf sdgsjfh dsfgdjf fdsjggdhfjgd sfgdhgfd dhfudtfre dheth fjeuyfe fguyfg skjwi 763  677dfgwjhbr kdsakjeru welllyu eyruhf eheqwiuyjfryti5yb eerujhdf etttthf uyerbe ndbgddbgkh j</p>
+</div>
+</div>
+<hr class="visible-xs"></div>
+<div class="clearfix visible-md-block visible-lg-block"></div>
+
+
+<div class="menu-item-tile col-md-6">
+<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+				           <div>d05</div>
+				           <img class="img-responsive"   width="200" height="200" src="Kamelie.jpg" alt="item"></div>
+				           <div class="menu-item-price">3424<span>fdf54</span><span>fgf</span></div>
+</div>
+<div class="menu-item-description col-sm-7"><h3 class="menu-item-title">pizzaass</h3><p class="menu-item-details"> dfhedjfhehfdbv fdgf sdjgfd hgdf hrwr htsyrte dywdh dgf sdgsjfh dsfgdjf fdsjggdhfjgd sfgdhgfd dhfudtfre dheth fjeuyfe fguyfg skjwi 763  677dfgwjhbr kdsakjeru welllyu eyruhf eheqwiuyjfryti5yb eerujhdf etttthf uyerbe ndbgddbgkh j</p>
+</div>
+</div>
+<hr class="visible-xs"></div>
+
+<div class="menu-item-tile col-md-6">
+<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+				           <div>d06</div>
+				           <img class="img-responsive"   width="200" height="200" src="Kamelie.jpg" alt="item"></div>
+				           <div class="menu-item-price">3424<span>fdf54</span><span>fgf</span></div>
+</div>
+<div class="menu-item-description col-sm-7"><h3 class="menu-item-title">pizzaass</h3><p class="menu-item-details"> dfhedjfhehfdbv fdgf sdjgfd hgdf hrwr htsyrte dywdh dgf sdgsjfh dsfgdjf fdsjggdhfjgd sfgdhgfd dhfudtfre dheth fjeuyfe fguyfg skjwi 763  677dfgwjhbr kdsakjeru welllyu eyruhf eheqwiuyjfryti5yb eerujhdf etttthf uyerbe ndbgddbgkh j</p>
+</div>
+</div>
+<hr class="visible-xs"></div>
+<div class="clearfix visible-md-block visible-lg-block"></div>
+
+
+
+</section>
+		
+</div> <!--end of maincontent-->
+<footer class="panel-footer">
+	<div class="container">
+		<div class="row">
+			<section id="hours" class="col-sm-4">
+				<span>hours:</span><br>gud to go<br>rewtfsdjtj<br>fdgfd
+				<hr class="visible-xs">
+			</section>
+			<section id="address" class="col-sm-4">
+				<span>address</span><br>gud to go<br>rewtfsdjtj<p> gotcha sdfgsh shdgfds dfjh djfjd vhd jggjhdfsf </p>
+				<hr class="visible-sm">
+			</section>
+			<section id="testimonials" class="col-sm-4">
+				<p>about me</p>gorewtfsdjtjrfdgfd
+				<p>rishika is a goddeesss  worship her otherwise go to hell</p>
+			</section>
+		</div>
+		<div class="text-center">&copy;my motell 2000</div>
+
+	</div>
+	</footer>
+
+<!-- #nav-list -->
+<!-- .collapse .navbar-collapse -->
+<script src="scriptyweek5.js"></script>
+
+</body>
+
+</html>
+
+ 
